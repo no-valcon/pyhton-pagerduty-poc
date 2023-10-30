@@ -11,3 +11,8 @@ POC for integrating with the PagerDuty API through Python.
 
 3. Run main.py
 `python3 main.py`
+
+## PagerDuty requirements
+
+![images/]
+
