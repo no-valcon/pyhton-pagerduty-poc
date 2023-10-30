@@ -21,5 +21,5 @@ Triggers PagerDuty "Service" "Incident" which phones the on-call PagerDuty "User
 2. Create PagerDuty "User" with Phone Number and add to as "On Call" to "Service"
 3. "Integrate" PagerDuty EventsAPIv2 with "Service" and get "Integration Key" / "Routing Key"
 
-## PagerDuty page a Team via escalation policies for future reference
+## For Future Reference: PagerDuty page a "Team" via "Escalation Policies"
 ![](images/pagerduty_new-incident.png)
