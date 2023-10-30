@@ -2,6 +2,8 @@
 
 POC for integrating with the PagerDuty API through Python. 
 
+Triggers PagerDuty "Service" "Incident" which phones the on-call PagerDuty "User".  
+
 ## Run locally
 
 1. Install dependencies:<br>
@@ -14,11 +16,9 @@ POC for integrating with the PagerDuty API through Python.
 
 ## PagerDuty requirements
 
-1. Create PagerDuty Service
-![](images/pagerduty_default-service.png)
-
-2. Create PagerDuty User with Phone Number and add to as On Call to that service
-![](images/pagerduty_user-on-call.png)
+1. Create PagerDuty "Service"
+2. Create PagerDuty "User" with Phone Number and add to as "On Call" to "Service"
+3. "Integrate" PagerDuty EventsAPIv2 with "Service" and get "Integration Key" / "Routing Key"
 
 ## PagerDuty page a Team via escalation policies for future reference
 ![](images/pagerduty_new-incident.png)
