@@ -20,5 +20,5 @@ POC for integrating with the PagerDuty API through Python.
 2. Create PagerDuty User with Phone Number and add to as On Call to that service
 ![](images/pagerduty_user-on-call.png)
 
-## PagerDuty escalation policies for future reference
+## PagerDuty page a Team via escalation policies for future reference
 ![](images/pagerduty_new-incident.png)
