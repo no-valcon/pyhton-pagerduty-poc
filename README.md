@@ -9,7 +9,7 @@ Triggers PagerDuty "Service" "Incident" which phones the on-call PagerDuty "User
 1. Install dependencies:<br>
 `pip3 install requirements.txt`
 
-2. Set environment variables:
+2. Set environment variables:<br>
 `PAGERDUTY_ROUTING_KEY`
 
 4. Run main.py:<br>
