@@ -14,5 +14,11 @@ POC for integrating with the PagerDuty API through Python.
 
 ## PagerDuty requirements
 
-![](images/)
+1. Create PagerDuty Service
+![](images/pagerduty_default-service.png)
 
+2. Create PagerDuty User with Phone Number and add to as On Call to that service
+![](images/pagerduty_user-on-call.png)
+
+## PagerDuty escalation policies for future reference
+![](images/pagerduty_new-incident.png)
