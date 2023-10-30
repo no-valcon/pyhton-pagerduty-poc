@@ -10,8 +10,9 @@ Triggers PagerDuty "Service" "Incident" which phones the on-call PagerDuty "User
 `pip3 install requirements.txt`
 
 2. Set environment variables:
+`PAGERDUTY_ROUTING_KEY`
 
-3. Run main.py:<br>
+4. Run main.py:<br>
 `python3 main.py`
 
 ## PagerDuty requirements
